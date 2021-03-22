@@ -1,7 +1,5 @@
 [build]
   command = "hugo"
-  base    = "exampleSite"
-  publish = "public"
 
 [build.environment]
   HUGO_BASEURL        = "https://color-your-world-demo.netlify.app"
