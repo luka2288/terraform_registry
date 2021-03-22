@@ -1,9 +1,9 @@
 baseURL = "https://example.com/"
 languageCode = "en"
-title = "Color Your World"
+title = "Terraform Registry"
 theme = "color-your-world"
 
-copyright = "Copyright © 2008–2020, Steve Francia and the Hugo Authors;\n All rights reserved."
+copyright = "Copyright © 2008–2021"
 
 enableEmoji = true
 enableInlineShortcodes = true
@@ -25,11 +25,11 @@ paginate = 5
 [params]
   
   # Site description
-  description = "John Doe's personal website"
+  description = "Terraform Registry E-commerce Operations"
   
   # Author
-  author      = "John Doe"
-  authorDesc  = "Some indescribable horror."
+  author      = "Luca Pasut"
+  authorDesc  = ""
   
   # Site cover, for Open Graph, Twitter Cards and Schema.org
   # It will be used if the current page doesn't have a image cover
@@ -82,10 +82,10 @@ paginate = 5
     # Text placeholders. As usual, comment the lines if you don't want use them
     # The "subject" below will only be used if the "subject" above doesn't exist (ie.: commented/deleted)
     [params.contact.placeholder]
-      name    = "Jane Doe"
-      email   = "janedoe@example.com"
-      subject = 'Just saying "hi"'
-      message = "Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+      name    = ""
+      email   = ""
+      subject = ''
+      message = ""
 
 
   [params.search]
@@ -156,7 +156,7 @@ paginate = 5
     paragraph     = "Nothing to see here, buddy."
     
   [params.social.centralized]
-    facebook      = [ "<username>", "Zuckerburg" ]
+    facebook      = [ "<username>" ]
     flickr        = [ "<username>" ]
     github        = [ "<username>" ]
     gitlab        = [ "<username>" ]
@@ -171,7 +171,7 @@ paginate = 5
     strava        = [ "<username>" ]
     telegram      = [ "<username>" ]
     twitch        = [ "<username>" ]
-    twitter       = [ "<username>", "@birb" ]
+    twitter       = [ "<username>" ]
     vimeo         = [ "<username>" ]
     whatsapp      = [ "<number>" ]
     xing          = [ "<username>" ]
