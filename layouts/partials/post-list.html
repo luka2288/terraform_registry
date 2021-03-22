@@ -11,8 +11,8 @@
 
     <li>
       <a class="btn" href="{{ .RelPermalink }}" title="{{ .LinkTitle }}{{ with $pageDate }}{{ printf " (%s)" . }}{{ end }}">
-        <p>{{ .LinkTitle | emojify }}</p>
-
+        <p><b>{{ .Title | emojify }}</b></p>
+        <p>{{ .Description | emojify }}</p>
         {{ with $pageDate }}
           <time datetime="{{ . }}">{{ . }}</time>
         {{ end }}
