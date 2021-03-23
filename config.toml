@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://terraform-registry.netlify.app/"
 languageCode = "en"
 title = "Terraform Registry"
 theme = "color-your-world"
