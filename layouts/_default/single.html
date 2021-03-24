@@ -5,7 +5,6 @@
       <header>
         
         <h1>{{ .Title | emojify }}</h1>
-
         {{ if or .Params.categories .Params.tags }}
           <section class="terms">
             <ul>
@@ -28,7 +27,6 @@
             {{ end }}
           </p>
         {{ end }}
-        
         {{ if .Params.cover }}
           {{ partial "cover" . }}
         {{ end }}
