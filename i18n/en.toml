@@ -100,13 +100,13 @@ other = "page"
 other = "of"
 
 [posts]
-other = "Posts"
+other = "Modules"
 
 [postsUnderTag]
-other = "Posts under the \"{{ .Title }}\" tag."
+other = "Modules under the \"{{ .Title }}\" tag."
 
 [postsUnderCategory]
-other = "Posts under the \"{{ .Title }}\" category."
+other = "Modules under the \"{{ .Title }}\" category."
 
 [pageContaining]
 other = "Page containing"

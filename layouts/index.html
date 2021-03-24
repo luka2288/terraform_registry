@@ -23,7 +23,7 @@
       </article>
     {{ else }}
     
-      <h1>{{ .Title | emojify | default (T "posts") }}</h1>
+      <h1>{{ .Title | emojify | default (T "Modules") }}</h1>
       
       {{ partial "post-list" . }}
       {{ partial "pagination" . }}

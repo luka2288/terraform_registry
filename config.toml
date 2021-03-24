@@ -1,8 +1,8 @@
 baseURL = "https://terraform-registry.netlify.app/"
 languageCode = "en"
-title = "Terraform Registry"
+title = "YNAP Terraform Registry"
 theme = "color-your-world"
-
+logo = "/logo.png"
 copyright = "Copyright © 2008–2021"
 
 enableEmoji = true
@@ -245,7 +245,7 @@ paginate = 5
     [languages.en.menu]
 
       [[languages.en.menu.main]]
-        name = "Docs"
+        name = "Modules"
         weight = 1
         url = "posts/"
 
