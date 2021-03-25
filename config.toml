@@ -3,7 +3,7 @@ languageCode = "en"
 title = "YNAP Terraform Registry"
 theme = "color-your-world"
 logo = "/logo.png"
-copyright = "Copyright © 2008–2021"
+copyright = "Copyright Yoox Net-a-Porter Group© 2021"
 
 enableEmoji = true
 enableInlineShortcodes = true
@@ -111,7 +111,7 @@ paginate = 5
     # Dark mode as default
     # User preferences (site/system settings) will still have priority over it
     # The default is false
-    isDark = true
+    isDark = false
 
     # Disable the use of system settings (prefers-color-scheme)
     # The default is false

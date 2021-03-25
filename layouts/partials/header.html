@@ -2,8 +2,10 @@
 {{ if (templates.Exists "partials/custom/site-title.html") }}
   {{ partial "custom/site-title" . }}
 {{ else }}
+<div class="row">
   <img src="/logo.png" class="img w-50" alt="logo">
-  <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+  <a href="{{ .Site.BaseURL | relLangURL }}"><h1>{{ .Site.Title }}</h1></a>
+</div>
 {{ end }}
 
 <!-- Menu -->
